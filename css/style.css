@@ -1,11 +1,20 @@
 @charset "utf-8";
 
-h1 {
+body {
+  font-family: "Lato";
+}
+
+a {
+  display: inline-block;
+}
+.font-Raleway {
   font-family: "Raleway";
 }
 
-p {
-  font-family: "Lato";
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
 }
 
 .inner {
@@ -13,18 +22,16 @@ p {
   margin: 0 auto;
 }
 
+
 .header {
   width: 100%;
   background: white;
   position: fixed;
-  padding: 15px 0;
   z-index: 1;
 }
 
-.clearfix:after {
-  content: "";
-  clear: both;
-  display: block;
+.header-inner {
+  padding: 15px 0;
 }
 
 .header-icon {
@@ -39,14 +46,18 @@ p {
   padding: 14px 12px;
   text-decoration: none;
   float: right;
+  transition: .3s;
 }
 
 .header-btn:hover {
   transition: .3s;
   color: #333;
 }
+
+.container {
+  padding-top: 70px;
+}
 .title {
-  width: 100%;
   background: #f2f2f2;
 }
 
@@ -68,7 +79,6 @@ p {
 }
 
 .wwcd {
-  width: 100%;
   background: #74cfae;
 }
 .wwcd-inner {
@@ -76,11 +86,12 @@ p {
 }
 .wwcd-image-container {
   float: left;
+  width: 300px;
 }
 
 .wwcd-text-container {
   float: right;
-  width: 750px;
+  width: 700px;
   text-align: center;
   line-height: 35px;
 }
@@ -98,18 +109,15 @@ p {
 }
 
 .olw {
-  width: 100%;
   background: #f2f2f2;
 }
 
 .olw-inner {
-  margin: 0 auto;
-  width: 1100px;
+  padding: 90px 0;
 }
 
 .olw-theme {
-  padding-top:60px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 
 }
 .olw-theme-text {
@@ -120,27 +128,27 @@ p {
 .olw-images {
   font-size: 0;
 }
-.olw-img {
+.olw-img-box {
   margin-left: 100px;
   opacity: 0.7;
+  transition: .3s;
 }
 
-.olw-img:hover {
+.olw-img-box:hover {
   transition: 0.3s;
   opacity: 1;
 }
 
-.olw-img:nth-child(3n+1) {
+.olw-img-box:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.olw-img:nth-child(n+4) {
+.olw-img-box:nth-child(n+4) {
   margin-top: 80px;
 }
 
 .olw-messages {
-  padding-top: 90px;
-  padding-bottom: 70px;
+  margin-top: 90px;
   text-align: center;
 }
 
@@ -158,6 +166,7 @@ p {
   text-decoration: none;
   display: inline-block;
   vertical-align: middle;
+  transition: .3s;
 }
 
 .olw-btn:hover {
@@ -166,7 +175,6 @@ p {
 }
 
 .os {
-  width: 100%;
   background: #4e4e4e;
 }
 
@@ -204,7 +212,6 @@ p {
 
 .sns {
   background: #f2f2f2;
-  width: 100%;
 }
 
 .sns-inner {
@@ -223,6 +230,7 @@ text-align: center;
   width: 185px; 
   text-align: center;
   padding: 20px 0;
+  transition: .3s;
 }
 
 .sns-link:hover {
@@ -236,13 +244,16 @@ text-align: center;
 
 .footer {
   background: #74cfae;
+  text-align: right;
+}
+
+.footer-inner {
   padding-top: 20px;
   padding-bottom: 25px;
 }
 
 .footer-text {
   color: white;
-  float: right;
 }
 
 @media screen and (max-width:767px) {
