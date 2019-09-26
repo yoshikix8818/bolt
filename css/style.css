@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+h1 {
+  font-family: "Raleway";
+}
+
+p {
+  font-family: "Lato";
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background: white;
+  position: fixed;
+  padding: 15px 0;
+  z-index: 1;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.header-icon {
+  color: #4e4e4e;
+  float: left;
+}
+
+.header-btn {
+  background: #74cfae;
+  color: white;
+  font-size: 12px;
+  padding: 14px 12px;
+  text-decoration: none;
+  float: right;
+}
+
+.header-btn:hover {
+  transition: .3s;
+  color: #333;
+}
+.title {
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.title-inner {
+  text-align: center;
+  padding: 250px 0;
+}
+
+.title-theme {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.title-subtitle {
+  font-size: 30px;
+  color: #c0c0c0;
+}
+
+.wwcd {
+  width: 100%;
+  background: #74cfae;
+}
+.wwcd-inner {
+  padding-top: 50px;
+}
+.wwcd-image-container {
+  float: left;
+}
+
+.wwcd-text-container {
+  float: right;
+  width: 750px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.wwcd-theme {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.wwcd-subtitle {
+  color: white;
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.olw {
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.olw-inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.olw-theme {
+  padding-top:60px;
+  padding-bottom: 40px;
+
+}
+.olw-theme-text {
+  font-size: 24px;
+  text-align: center;
+}
+
+.olw-images {
+  font-size: 0;
+}
+.olw-img {
+  margin-left: 100px;
+  opacity: 0.7;
+}
+
+.olw-img:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.olw-img:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.olw-img:nth-child(n+4) {
+  margin-top: 80px;
+}
+
+.olw-messages {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.olw-text {
+  width: 500px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.olw-btn {
+  background: #74cfae;
+  color: white;
+  margin-left: 90px;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.olw-btn:hover {
+  transition: .3s;
+  color: #333;
+}
+
+.os {
+  width: 100%;
+  background: #4e4e4e;
+}
+
+.os-inner {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.os-theme {
+  color: white;
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+
+.os-images {
+  font-size: 0;
+  text-align: center;
+}
+.os-img-container {
+  margin-left: 180px; 
+  display: inline-block;
+}
+
+.os-img-container:first-child {
+  margin-left: 0;
+}
+
+.os-img-text {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.sns {
+  background: #f2f2f2;
+  width: 100%;
+}
+
+.sns-inner {
+  padding: 200px 0;
+  margin: 0 auto;
+}
+
+.sns-link-container {
+font-size: 0;
+text-align: center;
+}
+
+.sns-link {
+  color: #74cfae;
+  display: inline-block;
+  width: 185px; 
+  text-align: center;
+  padding: 20px 0;
+}
+
+.sns-link:hover {
+  transition: .3s;
+  background: white;
+}
+
+.fab, .fas {
+  font-size: 40px;
+}
+
+.footer {
+  background: #74cfae;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.footer-text {
+  color: white;
+  float: right;
+}
+
+@media screen and (max-width:767px) {
+  /*スマホ用のcssを記述*/
+  }
+      
+  @media only screen and (min-width:768px) and (max-width:1199px) {
+  
+  }
+    
+  @media screen and (min-width:1024px) {
+  /*pc用のcssを記述*/
+}
