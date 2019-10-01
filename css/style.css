@@ -11,6 +11,7 @@ a {
 img {
   vertical-align: top;
 }
+
 .font-Raleway {
   font-family: "Raleway";
 }
@@ -51,6 +52,13 @@ img {
   text-decoration: none;
   float: right;
   transition:　color .3s;
+}
+
+
+
+.sp-btn {
+  display: none;
+
 }
 
 .header-btn:hover {
@@ -135,7 +143,7 @@ img {
 .olw-img-box {
   margin-left: 100px;
   opacity: 0.7;
-  transition: opcaity .3s;
+  transition: opacity .3s;
 }
 
 .olw-img-box:hover {
@@ -258,13 +266,125 @@ text-align: center;
 }
 
 @media screen and (max-width:767px) {
-  /*スマホ用のcssを記述*/
+  .inner {
+    width: 97%;
   }
-      
-  @media only screen and (min-width:768px) and (max-width:1199px) {
   
+  .header-btn {
+    display: none;
   }
-    
-  @media screen and (min-width:1024px) {
-  /*pc用のcssを記述*/
+  .sp-bar-btn {
+    font-size: 16px;
+  }
+  .sp-btn {
+    color: #ddd;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: right;
+    display: block;
+  }
+
+  .title-inner {
+    padding-top: 160px;
+    padding-bottom: 130px;
+  }
+  
+  .title-theme {
+    font-size: 80px;
+  }
+
+  .title-subtitle {
+    font-size: 30px; 
+  }
+
+  .wwcd-image-container {
+    width: 97%;
+  }
+  
+  .wwcd-text-container {
+    width: 97%;
+  }
+
+  .olw-text {
+    width: 97%;
+  }
+
+  .sns-link {
+    display: block;
+    width: 100%; 
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 15px;
+  }
+
+  .sns-inner {
+    padding: 50px 0;
+  }
+}
+      
+@media screen and (max-width:1199px) {
+  .inner {
+    width: 97%;
+  }
+  
+  .wwcd-inner {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .wwcd-theme {
+    margin-top: 25px;
+  }
+  .wwcd-image-container {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .wwcd-text-container {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .olw-inner {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    text-align: center;
+  }
+  
+  .olw-img-box {
+    margin: 0;
+    display: inline;
+  }
+  
+  .olw-img-box:nth-child(4){
+    margin-top: 80px;
+  }
+
+  .olw-img-box:nth-child(n+5){
+    margin-top: 0;
+  }
+  .olw-messages {
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .olw-text {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .olw-btn {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .os-img-container {
+    margin-left: 0; 
+    display: block;
+    margin-top: 88px;
+  }
+
+  .os-img-container:first-child {
+    margin-top: 0;
+  }
 }
