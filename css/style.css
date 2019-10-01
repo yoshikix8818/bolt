@@ -267,6 +267,82 @@ text-align: center;
   text-align: right;
 }
 
+      
+@media screen and (max-width:1199px) {
+
+  .inner {
+    width: 97%;
+  }
+  
+  .wwcd-inner {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .wwcd-image-container {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .wwcd-text-container {
+    float: none;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: auto;
+  }
+
+  .olw-inner {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    text-align: center;
+  }
+  
+  .olw-img-box {
+    margin: 0 auto;
+    max-width: 300px;
+    display: block;
+  }
+
+  .olw-img-box:nth-child(3n+1) {
+    margin-left: auto;
+}
+  
+  .olw-img-box:nth-child(4){
+    margin-top: 80px;
+  }
+
+  .olw-img-box:nth-child(n+5){
+    margin-top: 0;
+  }
+  .olw-messages {
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .olw-text {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .olw-btn {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .os-img-container {
+    margin-left: 0; 
+    display: block;
+    margin-top: 88px;
+  }
+
+  .os-img-container:first-child {
+    margin-top: 0;
+  }
+
+  .sns-link{
+    width: 25%;
+  }
+
 @media screen and (max-width:767px) {
   .inner {
     width: 97%;
@@ -320,75 +396,4 @@ text-align: center;
     padding: 50px 0;
   }
 }
-      
-@media screen and (max-width:1199px) {
-  .inner {
-    width: 97%;
-  }
-  
-  .wwcd-inner {
-    padding-top: 50px;
-    padding-bottom: 25px;
-  }
-
-  .wwcd-image-container {
-    float: none;
-    margin: 0 auto;
-  }
-
-  .wwcd-text-container {
-    float: none;
-    margin: 0 auto;
-    margin-top: 25px;
-  }
-
-  .olw-inner {
-    padding-top: 60px;
-    padding-bottom: 70px;
-    text-align: center;
-  }
-  
-  .olw-images {
-    display: inline-block;
-  }
-  .olw-img-box {
-    margin: 0 auto;
-    display: block;
-  }
-
-  .olw-img-box:nth-child(3n+1) {
-    margin-left: auto;
-}
-  
-  .olw-img-box:nth-child(4){
-    margin-top: 80px;
-  }
-
-  .olw-img-box:nth-child(n+5){
-    margin-top: 0;
-  }
-  .olw-messages {
-    margin-top: 80px;
-    text-align: center;
-  }
-  
-  .olw-text {
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .olw-btn {
-    margin-left: 0;
-    margin-top: 40px;
-  }
-
-  .os-img-container {
-    margin-left: 0; 
-    display: block;
-    margin-top: 88px;
-  }
-
-  .os-img-container:first-child {
-    margin-top: 0;
-  }
 }
